@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Form tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Geesham Hosanee">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
+</head>
+<body>
+    <div class="whole">
+            <div class="nav_bar pull-left">
+                <div class="avatar">
+                    <!--<img src="data:image/jpeg;base64,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" style="max-width:100%;height:auto;" alt="avatar">
+                    <-->
+                    <img src="photo1.jpg" style="max-width:50%;height:auto;" alt="avatar">
+                </div>
+                <div class="name">
+                    <h2> Geesham Hosanee</h2>
+                    <p  class="p01"> Computer Scientist/ Software Developer</p> <br> <br>
+               </div>
+
+                <nav class="mainNav">
+                    <ul class="navigation">
+                        <li><a href="#about">About </a> </li>
+                        <li><a href="#education">Education </a> </li>
+                        <li><a href="#technical Skills">Technical Skills </a> </li>
+                        <li><a href="#otherSkills">Personal Skills </a> </li>
+                        <li><a href="#experience">Extra-Curricular Experience </a> </li>
+                        <li><a href="#contact">Contact</a> </li>
+                    </ul>
+                </nav>
+            </div>
+
+            
+            <div class="content">
+                <section id="about" class="about">
+                    <div class="sectionHeader">
+                        <h2>About me</h2> 
+
+                    </div>
+                    <div class="intro">
+                        <div class="introDetails">
+                        <p>Hello. My name is Geesham Hosanee. Having studied Computer Science at University of Mauritius, I have
+                            proper knowledge on various technologies of the IT world such as Html, Java amongst other. Moreover, I have worked on various 
+                            strengthening my interpersonal skills.  
+                        </div>
+                        </h2> 
+                        <ul class="listing">
+                            <li><b>Address:</b> Canda Lane, Boundary Road Quatre Bornes</li>
+                            <li><b>Email: </b>Geesham@gmail.com </li>
+                            <li><b>Phone Number: </b> 57689002</li>                    
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="education" class="education">
+                    <div class="sectionHeader">
+                        
+                        <h2>Education</h2> 
+                    </div>
+                    <div class="details">
+                        <div class="eduDetail">
+                            <h3>Bsc(Hons) Computer Science</h3>
+                            <p class="eduDetailYear">August 2018- August 2021</p>
+                        </div>
+                        <p> University of Mauritius</p> 
+                        <ul class="listing">
+                            <li><b>2nd Year CPA: </b> First Class</li>
+                            <li><b>Modules Covered: </b>Web Centric Computing, Algorithm and Complexities, 
+                                Object Oriented Techniques, User Interface Design, 
+                                Computer Networks and System Admin, 
+                                Wireless Networking and Ubiquitous Technologies </li> <br>
+                        </ul>
+                        
+                        <div class="eduDetail">
+                            <h3>Higher School Certificate</h3>
+                            <p class="eduDetailYear">January 2011- August 2017</p>
+
+                        </div>
+                            <p> College du Saint Esprit</p> 
+                        
+
+                        <ul class="listingHsc">
+                            <li><b>Physics: </b> <span id="s1"> A+</span></li>
+                            <li><b> Chemistry: </b><span id="s2">A+</span> </li>
+                            <li><b>Mathematics: </b><span id="s3">A</span></li>  
+                        </ul>                 
+                    
+                    </div>
+                  
+                </section>
+
+
+                <section id="technical Skills" class="technical Skills">
+                    <div class="sectionHeader">
+                        <h2>Technical Skills</h2> 
+                    </div>
+                    <p> All Technologies learnt and my curent skills level.</p>
+
+                    
+                    <div class="main_skills">
+                        <div class="column1">                             
+                            <div class="container">    
+                                <div class="Info">
+                                    <span class="pull-left">HTML</span>
+                                    <span class="pull-right">100%</span>
+                                </div>
+                                <div class="progress progress-striped htmlbar">
+                                <div class="progress-bar">                   
+                                </div>                       
+                                </div> 
+                            </div>
+                
+                            <div class="container">    
+                                <div class="Info">
+                                    <span class="CSS pull-left">CSS</span>
+                                    <span class="pull-right">80%</span>
+
+                                </div>
+                                <div class="progress progress-striped cssbar">
+                                <div class="progress-bar">                   
+                                </div>                       
+                                </div> 
+                            </div>
+
+                            <div class="container">    
+                                <div class="Info">
+                                    <span class="JavaScript pull-left">JavaScript</span>
+                                    <span class="pull-right">70%</span>
+
+                                </div>
+                                <div class="progress progress-striped jsbar">
+                                <div class="progress-bar">                   
+                                </div>                       
+                                </div> 
+                            </div>
+                        </div>
+
+                        <div class="column2"> 
+                            <div class="container">    
+                                <div class="Info">
+                                    <span class="Java pull-left">Java</span>
+                                    <span class="pull-right">80%</span>
+                                </div>
+                                <div class="progress progress-lan JavaBar">
+                                <div class="progress-bar">                   
+                                </div>                       
+                                </div> 
+                            </div>
+
+                            <div class="container">    
+                                <div class="Info">
+                                    <span class="Python pull-left">Python</span>
+                                    <span class="pull-right">80%</span>
+
+                                </div>
+                                <div class="progress progress-lan PythonBar">
+                                <div class="progress-bar">                   
+                                </div>                       
+                                </div> 
+                            </div>
+
+                            <div class="container">    
+                                <div class="Info">
+                                    <span class="C# Lan pull-left">c#</span>
+                                    <span class="pull-right">60%</span>
+
+                                </div>
+                                <div class="progress progress-striped CBar">
+                                <div class="progress-bar">                   
+                                </div>                       
+                                </div> 
+                            </div>
+
+                        </div>
+
+                    </div>        
+                    
+                </section>
+
+
+                <section id="otherSkills" class="otherSkills">
+                    <div class="sectionHeader">
+                        <h2>Personal Skills</h2> 
+                    </div>
+                    <div class="details">
+                        <img style="float:right;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi8JJlFXW8yq2aXhtejZkWe4t9HfiPQ1HLZA&usqp=CAU" style="max-width:100%;height:auto;" alt="avatar">
+
+                        <ul class="listing">
+                            <li>Versatile</li>
+                            <li>Strong Communication Skills</li>
+                            <li>Good Planning and Organisation Skills </li>
+                            <li>Teamworking Skills</li>
+                            <li>Problem Solving ability</li>
+                        </ul>
+
+                    </div>
+                </section>
+
+
+                <section id="experience" class="experience">
+                    <div class="sectionHeader">
+                        <h2>Extra-Curricular Experience</h2> 
+                    </div>
+                    <div class="details">
+                        <ul class="listing">
+                            <li>Attended Cisco Certified Networking Associate Certification Course</li>
+                            <li>Participated in 3 days Hackathon Competition</li>
+                            <li>Attended Martial Arts Classes for 6 years</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="contact" class="contact">
+                    <div class="sectionHeader">
+                        <h2>Get in Touch</h2> 
+                    </div>
+                    <form>
+                        <div class="form_content">
+                            <div class="column1">
+                                <div class="form_element">
+                                    <input type="text" class="form-control" id="fname" name="fname" value="" placeholder="Your Name"> <br> <br>
+                                </div>
+
+                                <div class="form_element">
+                                    <input type="text" class="form-control" id="phone" name="phone" value="" placeholder="Phone Num (Optional)"> <br><br>
+                                </div>
+                            </div>
+                                
+                            <div class="column2">
+                                <div class="form_element">
+                                    <input type="text" class="form-control" id="email" name="email" value="" placeholder="Your Email"> <br><br>
+                                </div>
+                                
+                                <div class="form_element">
+                                    <input type="text" class="form-control" id="subject" name="subject" value="" placeholder="Subject"> <br><br>
+                                </div>    
+                            </div>                      
+                        </div>
+
+                        <div class="form_element">
+                            <textarea name="InputMessage" id="InputMessage" class="form-control" rows="6" placeholder="Message" required=""></textarea>
+                        </div> 
+                        <input type="submit" name="submit" id="submit" value="Send Message" class="btn btn-default pull-left">
+
+                    </form>
+                </section>    
+                
+            </div>
+            
+     </div>       
+</body>
+</html>

@@ -1,0 +1,316 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #1a1a1a;
+    background-color: #5352d4; 
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+.whole{
+    width: 100vw;
+    height: 100vh;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #0C0C0C;
+    font-size: 14px;
+}
+
+p.p01{
+    color: #d8d8e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+
+.nav_bar{
+    background: #5655da;
+    color: #fff;
+    display: table-cell;
+    padding: 30px;
+    vertical-align: middle;
+    position: fixed;
+    margin-left: 250px;  
+    margin-top: -10px;  
+    
+    resize: both;
+    overflow: auto;
+  /*width: 50vw;*/
+    height: 100vh;
+
+
+}
+
+div.avatar {
+    overflow: hidden;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+}
+
+.mainNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mainNav ul li
+{    padding: 10px;
+}
+
+.mainNav ul li a:hover
+{   box-shadow: 0 0 5px black, 0 0 5px black;
+    border-radius: 5px;
+}
+
+.mainNav ul li a{    
+    text-decoration: none;
+    color: aliceblue;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.content{
+    background: #FFF;
+    float: right;
+    border: 1px solid black;
+    width:45vw;
+    position: relative;
+    right: 230px;
+    margin-top: -10px;  
+}
+
+
+
+.content section {
+    padding: 60px 70px;
+    position: relative;
+    border-bottom: solid 5px #EEE;
+    
+}
+
+/* === Section Header === */
+.content section .sectionHeader {
+    margin-bottom: 40px;
+    position: relative;
+    font-size: 12px;
+    /*color: #D48C70;*/
+    color: #f74470;
+}
+
+.introDetails p{
+    line-height: 36px;
+}
+
+.intro ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;    
+}
+
+.intro ul li{ 
+    padding: 7px 0 7px 0;
+}
+
+.listing li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 36px;
+
+}
+
+.listingHsc li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.listingHsc li span#s1{
+    margin: 55px;
+}
+
+.listingHsc li span#s2{
+    margin: 35px;
+}
+
+.listingHsc li span#s3{
+    margin: 15px;
+}
+
+
+.intro ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;    
+    
+}
+
+.details ul li{ 
+    padding: 0 0 7px 0;
+}
+
+
+
+.container {
+    width: 13vw;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .progress {
+    padding: 3px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+
+  }
+  
+  .progress-bar {	
+    height: 3px;
+    background-color: #30eeaf;  
+    background-color: #FCBC51; 
+
+  }
+  
+  .cssbar .progress-bar { 	
+    background-color: #FCBC51; 
+    width: 80%; 
+  }
+
+  .jsbar .progress-bar { 	
+    background-color: #FCBC51; 
+    width: 70%; 
+    animation: progressAnimationStrike 6s;
+  }
+
+  .progress-lan .progress-bar { 	
+    background-color: #FCBC51; 
+    width: 80%; 
+    animation: progressAnimationStrike 6s;
+  }
+
+  .CBar .progress-bar { 	
+    background-color: #FCBC51; 
+    width: 60%; 
+    animation: progressAnimationStrike 6s;
+  }
+
+
+  .main_skills{
+      padding:20px;
+      display: flex;    
+  }
+
+  .main_skills .column1{
+   /* width: 50%;
+    float: left;*/
+    padding:10px;
+
+  }
+
+  .main_skills .column2{
+    /* width: 50%;
+     float: left;*/
+     padding:10px;
+  }
+  
+  .Info{
+      padding: 20px;
+  }
+
+
+  .pull-left{
+      float: left;
+  }
+
+  .pull-right{
+    float: right;
+}
+
+.form_content{
+    display: flex;
+
+}
+
+
+.form_content .column1{
+  
+     padding:20px;
+     padding-left:0px;
+     padding-bottom:20px;
+}
+ 
+.form_content .column2{
+    
+    padding:20px;
+    padding-left:60px;
+}
+
+.form-control{
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.form-control:focus{
+    outline: none;
+
+}
+
+.form_element{
+    margin-bottom: 25px;
+}
+
+#InputMessage{
+    width: 100%;
+    height: 100px;
+
+}
+
+.btn-default {
+    color: #FFF;
+    background-color: #5655da;
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 8px 16px;
+    border-radius: 3px;
+    position: relative;
+}
+
+
+.eduDetailYear{
+    float: right;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    .whole,  .content {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+
+    .nav_bar .content{
+        position: fixed; 
+      }
+  } 
+
+@media print{
+   .nav_bar{
+        display: none;
+    }
+}
